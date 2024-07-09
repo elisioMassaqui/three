@@ -47,7 +47,7 @@ mesh2.scale.x = (1.2)
 
 //position
 mesh3.position.z = (-2)
-mesh3.position.x = (-2.5)
+mesh3.position.x = (-1.5)
 //rotation
 mesh3.rotation.z = (1)
 //escala
