@@ -21,6 +21,7 @@ renderer.setSize(sizes.width, sizes.height);
 
 // Criação da cena
 const scene = new THREE.Scene();
+//scene.background = new THREE.Color( 0x3994 );
 
 // Camera, usamos a perspectiva, igual ao do ser humano
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height);
