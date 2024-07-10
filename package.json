@@ -14,5 +14,9 @@
     "parcel": "^2.12.0",
     "three": "^0.166.1",
     "vite": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/dat.gui": "^0.7.13",
+    "dat.gui": "^0.7.9"
   }
 }
