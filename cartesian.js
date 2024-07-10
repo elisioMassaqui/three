@@ -52,7 +52,7 @@ scene.add(gridHelper);
 
 // AxesHelper
 const axesHelper = new THREE.AxesHelper(4);
-scene.add(axesHelper);
+box.add(axesHelper);
 
 // Configuração do dat.GUI
 const gui = new dat.GUI();
