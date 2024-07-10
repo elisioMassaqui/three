@@ -63,6 +63,9 @@ boxFolder.add(box.position, 'z', -5, 5, 0.1).name('Posição Z');
 boxFolder.add(box.rotation, 'x', 0, Math.PI * 2, 0.1).name('Rotação X');
 boxFolder.add(box.rotation, 'y', 0, Math.PI * 2, 0.1).name('Rotação Y');
 boxFolder.add(box.rotation, 'z', 0, Math.PI * 2, 0.1).name('Rotação Z');
+boxFolder.add(box.scale, 'x', 0.1, 5, 0.1).name('Escala X');
+boxFolder.add(box.scale, 'y', 0.1, 5, 0.1).name('Escala Y');
+boxFolder.add(box.scale, 'z', 0.1, 5, 0.1).name('Escala Z');
 boxFolder.addColor(boxMaterial, 'color').name('Cor');
 boxFolder.open();
 
